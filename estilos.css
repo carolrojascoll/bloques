@@ -1,0 +1,72 @@
+/*CAROLINA ROJAS COLLANTE*/
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 950px;
+    background-color: silver;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.top-nav {
+    height: 150px;
+    background-color: green;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    margin-right: 20px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+}
+
+.sub-content {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin-bottom: 80px;
+    
+}
+
+#advertisement {
+    height: 100;
+    width: 700px;
+    background-color: purple;
+    
+}
+
+.main .sub-content:nth-child(odd) {
+    width: 160px;
+  }
+  
+  .main .sub-content:nth-child(even) {
+    width: 210px;
+  }
+  
